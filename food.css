@@ -1,0 +1,373 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    overflow: hidden;
+}
+.img{
+    background-image: url("banner-bg.jpg");
+    height:900px ;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    width: 1419px;
+    margin-left: -70px;
+    
+}
+.navbar{
+    
+    margin: 20px 30px 20px 130px;
+    padding: 10px 10px;
+    width: 1200px;
+    height: 90px;
+    background-color: white;
+}
+
+nav ul{
+    margin: 0px 20px 0px 450px;
+}
+
+nav ul .nav-item{
+    padding-left: 8px;
+
+}
+nav ul .nav-link{
+    color: black;
+    transition: all .5s ease-in;
+}
+nav ul .nav-link:hover{
+    color: #ffb606;
+}
+.paragraph{
+   
+    color: white;
+    text-align: center;
+    padding: 300px 0px 0px 50px ;
+}
+.paragraph h1{
+    font-family:  robot;
+    font-weight: bold;
+    font-style:italic ; 
+    font-size:65px;
+}
+.prime-color{
+    color: #ffb606;
+    font-weight: bold;
+    font-family:  robot;
+}
+.paragraph h6{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.second{
+    display: flex;
+    margin: 120px 90px;
+}
+.second h1{
+    font-weight: bold;
+    font-family:  robot;
+    font-style: italic;
+}
+
+.p{
+    margin: 110px 30px;
+}
+
+.p p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    font-size: 14px;
+    margin: 20px 0px;
+    line-height: 20px;
+}
+.button1{
+    background-color: #ffb606;
+    color: black;
+    width: 160px;
+    font-size: 16px;
+    margin: 10px 0px;
+    padding: 11px 17px;
+    border: 1px solid #ffb606;
+    transition: all .5s ease-in;
+}
+.button1:hover{
+    background-color: #FFF;
+    
+}
+
+.img2{
+    background-image: url("foodfun/food-bg.png");
+    height:870px ;
+    background-position: right;
+    background-repeat: no-repeat;
+    
+}
+.head3{
+    margin: 0px 130px;
+    
+}
+.head3 h1{
+    font-family: robot;
+    font-weight: bold;
+    line-height: 42px;
+}
+.head3 p{
+    font-size: 14.5px;
+    margin: 20px 0px;
+}
+.container3{
+    margin: 60px 120px;
+    height: 800px;
+}.card{
+    margin-bottom: 50px ;
+    border: none !important;
+    overflow: hidden;
+}
+.card:hover >.card-body {
+    background-color: #ffb606;
+    transition: all .5s ease-in-out ;
+}
+.card:hover > img{
+   transform: scale(1.1) ;
+   transition: all .5s ease-in-out ;
+}
+.card:hover >.prime-color{
+    color: black;
+}
+.card-body{
+    background-color: #f9f9ff;
+    padding: 40px 30px;
+}
+.card-body h5{
+    font-family: robot ;
+    font-weight: 700;
+    font-size: 22px;
+}
+.card-body p{
+    color: grey;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.cover{
+    height: 500px;
+    background-repeat: no-repeat;
+    background-image: url("foodfun/reservation-bg.jpg");
+    text-align: center;
+    margin-top: 450px;
+    color: #FFF;
+    padding-top: 160px;
+}
+.cover h1{
+    font-family: roboto;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 45px;
+}
+.cover h4{
+    font-family: roboto;
+    margin-top: 15px;
+    font-style: italic;
+    font-size: 25px;
+}
+.reserve{
+    background-color: #ffb606;
+    color: black;
+    width: 140px;
+    font-family:   'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    margin: 30px 0px;
+    padding: 11px 17px;
+    border: 1px solid #ffb606;
+    transition: all .5s ease-in;
+}
+.reserve:hover{
+    background-color: #FFF;
+    
+}
+
+.special{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-family: roboto;
+}
+.one{
+    text-align: center;
+}
+.one h1{
+    font-size: 42px;
+}
+.one h6{
+    color: #999999;
+    font-style: italic;
+}
+.deshes-text{
+    font-family: roboto;
+    margin-left: 80px;
+}
+.deshes-text h2{
+    font-family: roboto;
+    font-size: 38px;
+    font-weight: 550;
+}
+.deshes-text p{
+    color: #898989;
+    font-family: roboto;
+}
+.book{
+    background-color: #ffb606;
+    color: black;
+    width: 120px;
+    font-family:   'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    margin-top: 10px;
+    padding: 10px 15px;
+    border: 1px solid #ffb606;
+    transition: all .5s ease-in;
+}
+.book:hover{
+    background-color: #FFF;
+}
+.deshes-text2{
+    font-family: roboto;
+    margin-left: 140px;
+}
+.deshes-text2 h2{
+    font-family: roboto;
+    font-size: 38px;
+    font-weight: 550;
+}
+.deshes-text2 p{
+    color: #898989;
+    font-family: roboto;
+}
+
+.customer{
+    height: 630px;
+    margin-top: 240px;
+    background-image: url("foodfun/testimonial-bg.jpg");
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(1,1,1,.8);
+}
+.customer-text{
+    color: #FFF;
+    text-align: center;
+    padding-top: 130px;
+}
+.customer-text h1{
+    font-family: roboto;
+    font-weight: 600;
+}
+.customer-text p{
+    font-style: italic;
+}
+.men{
+    display: flex;
+    width: 600px;
+    height: 200px;
+    background-color: #FFF;
+    margin: auto;
+    margin-top: 50px;
+    padding: 30px;
+    border-radius: 5px;
+    font-family: roboto;
+    background-image: url("foodfun/quote.png");
+    background-repeat: no-repeat;
+}
+.kalam{
+    margin-left: 20px;
+}
+.kalam h4{
+    font-family: roboto;
+    font-weight: 550;
+}
+.kalam p{
+    color: #898989;
+    font-family: tahoma;
+    font-size: 14px;
+}
+
+.our-food{
+    height: 700px;
+    margin-top: 100px;
+}
+.food{
+    text-align: center;
+    font-family: roboto;
+}
+.food h1{
+    font-family: roboto;
+    font-weight: 600;
+   
+}
+.food p{
+    font-style: italic;
+    font-size: 16px;
+    color: #898989;
+    font-family: tahoma;
+}
+
+.update{
+    margin: 100px 130px;
+}
+.update h4{
+    font-family: roboto;
+    font-weight: 600;
+}
+.update p{
+    font-family: tahoma;
+    font-size: 14px;
+}
+.update span{
+    font-size: 14px;
+    color: #898989;
+    font-family: tahoma;
+}
+.update .col:hover{
+    box-shadow: #898989;
+
+}
+.table{
+    background-image:linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .7)) ,
+    url("foodfun/table-bg.jpg");
+    height: 500px;
+    position: relative;
+    margin-top: 100px;
+}
+.your-table{
+    color: #FFF;
+    text-align: center;
+    margin-top: 100px;
+    padding-top: 100px;
+}
+.your-table h1{
+    font-family: roboto;
+}
+.your-table p{
+    font-family: tahoma;
+    font-size: 15px;
+    font-style: italic;
+}
+.form-inline{
+    margin-left: 160px;
+}
+.final{
+    height: 450px;
+    background-color: #131230;
+    margin-top: -10px;
+    color:#898989;
+    font-family: tahoma;
+}
+.footer{
+    height: 80px;
+    background-color: #0e0d24;
+    overflow: hidden;
+    color: #FFF;
+}
